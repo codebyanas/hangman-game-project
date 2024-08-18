@@ -1,0 +1,61 @@
+html,
+body {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    overflow: hidden;
+}
+
+.app-name {
+    color: white;
+}
+
+#reset {
+    background: purple;
+    border: none;
+}
+
+.fw-semibold {
+    font-size: large;
+}
+
+a {
+    display: flex;
+}
+
+p {
+    margin: auto;
+}
+
+span {
+    text-decoration: underline;
+    margin-right: 26px;
+    font-weight: bold;
+}
+
+.puzzle {
+    margin-bottom: 26px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    html,
+    body {
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
+        touch-action: manipulation;
+        overflow: hidden;
+    }
+
+    .puzzle {
+        font-size: medium;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
